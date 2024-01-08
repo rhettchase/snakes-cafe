@@ -75,4 +75,7 @@ Here is your complete order:
 ------
 """
 
-for item in 
+for key, value in order_counts.items():
+    order_summary += f"{key} x {value}\n"
+    
+print(order_summary)
